@@ -2,7 +2,7 @@ matrix = [[3, 4, 10, 6],[6, 8, 11, 12],[6, 8, 14, 15]]
 # procedure qui affiche l'élément dans la matrice
 def element(matrix, value):
     for row in matrix:# parcourir les lignes 
-        for element in row:# parcourir les colonnes
+        for element in row:# parcourir les éléments des lignes
             if element == value:
                 return print("le nombre",value,"existe dans la matrice") #la matrice contient cet élement
     return print("le nombre",value,"n'existe pas dans la matrice")
