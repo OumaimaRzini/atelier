@@ -42,13 +42,4 @@ def mode(list):
         return max(set(list),key=list.count)
 print("le mode est ",mode(list))
 
-def variance(list):
-    n=len(list)
-    moy= sum(list)/n
-    diff_sq=[None]*n
-    for i in range(n):
-        diff_sq[i]=(list[i]-moy)**2
-    return sum(diff_sq)/2
-print("la variance est:",variance(list))
-
 
